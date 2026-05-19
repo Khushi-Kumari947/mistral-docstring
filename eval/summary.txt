@@ -1,0 +1,9 @@
+## Evaluation Results
+
+Evaluated on 100 held-out Python functions from CodeSearchNet.
+
+| Model                           | ROUGE-L | BERTScore F1 |
+|---------------------------------|---------|--------------|
+| Mistral 7B (fine-tuned)         | 0.2033  | 0.7739       |
+| Llama 3.3 70B via Groq          | 0.1715  | 0.7594       |
+| Mistral 7B (base, no fine-tune) | 0.1102  | 0.7118       |
