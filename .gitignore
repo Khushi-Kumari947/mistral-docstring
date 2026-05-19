@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+mistral-doctring-env/
+env/
+
+
+# Environment variables
+.env
+secrets.json
+*_key.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files — too large for GitHub (reproducible via collect_data.py)
+# data/train.jsonl
+# data/val.jsonl
+data/*.jsonl
+eval/*.json
+
+# Model weights — hosted on HuggingFace Hub instead
+*.safetensors
+*.bin
+*.pt
+*.pth
+adapter_model*/
+checkpoint-*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
